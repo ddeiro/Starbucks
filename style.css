@@ -3,7 +3,8 @@ body {
 	padding: 0;
 	height: 100vh;
 	display: grid;
-	grid-template-rows: 10% 70% 20%;
+	grid-template-rows: 15% 65% 20%;
+	grid-template-columns: 2fr 1fr 50px;
 }
 
 nav {
@@ -21,4 +22,14 @@ ul {
 
 ul li {
 	margin: 0 25px;
+}
+
+/*Areas*/
+
+nav {
+	grid-column: span 4;
+}
+
+footer {
+	grid-column: span 4;	
 }
