@@ -33,3 +33,20 @@ nav {
 footer {
 	grid-column: span 4;	
 }
+
+main h1 {
+	font-size: 5em;
+}
+
+main p {
+	font-size: 1.2em;
+	width: 60%;
+}
+
+main button {
+	color: white;
+	background-color: #2a7242;
+	padding: 15px;
+	border: none;
+	border-radius: 10px;
+}
