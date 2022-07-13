@@ -63,3 +63,19 @@ main button {
 	transform: translate(10px, -500px);
 	border-radius: 60%;
 }
+
+.social {
+	align-self: center;
+}
+
+.social a {
+	width: 50px;
+}
+
+.social img{
+	margin-bottom: 25px;
+}
+
+footer {
+
+}
