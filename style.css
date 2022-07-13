@@ -76,6 +76,6 @@ main button {
 	margin-bottom: 25px;
 }
 
-footer {
-
+footer{
+	justify-self: center;
 }
