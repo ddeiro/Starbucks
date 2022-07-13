@@ -5,6 +5,7 @@ body {
 	display: grid;
 	grid-template-rows: 15% 65% 20%;
 	grid-template-columns: 2fr 1fr 50px;
+	overflow: hidden;
 }
 
 nav {
@@ -49,4 +50,16 @@ main button {
 	padding: 15px;
 	border: none;
 	border-radius: 10px;
+}
+
+#smoothie::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 1200px;
+	height: 1200px;
+	background-color: #2a7242;
+	z-index: -1;
+	transform: translate(10px, -500px);
+	border-radius: 60%;
 }
